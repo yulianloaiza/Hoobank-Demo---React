@@ -1,0 +1,121 @@
+.app__header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.app__header-logo {
+  margin: 1rem 0rem 1rem 2rem;
+}
+.app__header-logo img {
+  width: 12rem;
+}
+
+.app__header-navlinks {
+  margin-right: 2rem;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__header-navlinks li {
+  margin: 0 1rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.app__header-navlinks li p {
+  transition: font-size 0.1s ease-out;
+}
+
+.app__header-navlinks li p:hover {
+  color: var(--color-white);
+  font-size: 18px;
+}
+
+.app__header-mobile {
+  display: flex;
+}
+
+.mobile__hamburger {
+  cursor: pointer;
+  width: 30px;
+  margin-right: 1rem;
+  padding-top: 6px;
+}
+
+#mobile__hamburger--menu {
+  position: fixed;
+  overflow: hidden;
+  flex-direction: column;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: black;
+  top: 4.5rem;
+  right: 0;
+  width: 30%;
+  padding-bottom: 1.5rem;
+  height: 0px;
+  transition: 0.4s;
+  width: 30%;
+  opacity: 0;
+}
+
+#mobile__hamburger--menu.show {
+  height: 12rem;
+  opacity: 1;
+  display: flex;
+}
+
+#mobile__hamburger--menu li {
+  cursor: pointer;
+}
+
+.mobile__hamburger-link {
+  list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .app__header-mobile {
+    display: none;
+  }
+  #mobile__hamburger--menu.show {
+    display: none;
+  }
+  .app__header-navlinks {
+    display: flex;
+  }
+  .app__header-logo {
+    margin-left: 9rem;
+  }
+  .app__header-navlinks {
+    margin-right: 9rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .app__header-mobile {
+    display: none;
+  }
+  #mobile__hamburger--menu.show {
+    display: none;
+  }
+  .app__header-navlinks {
+    display: flex;
+  }
+  .app__header-logo {
+    margin-left: 4rem;
+  }
+  .app__header-navlinks {
+    margin-right: 4rem;
+  }
+}

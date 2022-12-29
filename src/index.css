@@ -1,3 +1,37 @@
+/* Import font and set global css variables */
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght:@300;400;500;600;700&family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --font-base: 'Poppins', serif;
+  --font-alt: 'Cormorant Upright', serif;
+  --color-grey: #FFFFFFB2;
+  --color-white: #FFFFFF;
+  --color-lightBlue: #00D9F599;
+}
+/* temporary */
+body{
+
+  background-color: grey;
+}
+
+p{
+  font-family: var(--font-base);
+  color: var(--color-grey);  
+  font-weight: 400;
+}
+
+.title{
+  font-family: var(--font-base);
+  font-size: 48px;
+  font-weight: 600;
+
+  
+}
+
+.action_button{
+  /* pending gradient */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

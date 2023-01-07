@@ -7,11 +7,19 @@
   --color-grey: #FFFFFFB2;
   --color-white: #FFFFFF;
   --color-lightBlue: #00D9F599;
+  --color-darkBlueBg: #131421;
 }
 /* temporary */
 body{
 
-  background-color: grey;
+  background-color: #131420;
+}
+
+a{
+  font-family: var(--font-base);
+  color: var(--color-grey);  
+  font-weight: 400;
+  text-decoration: none;
 }
 
 p{
@@ -23,9 +31,20 @@ p{
 .title{
   font-family: var(--font-base);
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 600; 
+}
 
-  
+.gradientText{
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  text-shadow: none;  
+}
+
+.section{
+  margin: 2rem 2rem;
 }
 
 .action_button{
@@ -44,4 +63,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (min-width: 1024px) {  
+  .section {
+    margin: 9rem 9rem;
+  }  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .section {
+    margin: 4rem 4rem;
+  }  
+  
 }

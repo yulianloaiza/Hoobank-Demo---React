@@ -35,10 +35,10 @@ const Header = () => {
         </div>
         {/* Links are just for reference. They don't point anywhere yet. */}        
         <ul className='app__header-navlinks'>
-          <li className='app__header-link'> <p> Home</p> </li>
-          <li className='app__header-link'> <p> About Us</p> </li>
-          <li className='app__header-link'> <p> Features</p> </li>
-          <li className='app__header-link'> <p> Solution</p> </li>
+          <li className='app__header-link'> <a href="404"> Home</a> </li>
+          <li className='app__header-link'> <a href="404"> About Us</a> </li>
+          <li className='app__header-link'> <a href="404"> Features</a> </li>
+          <li className='app__header-link'> <a href="404"> Solution</a> </li>
         </ul>
         {/* small screen */}
         <div className='app__header-mobile' >
@@ -47,10 +47,10 @@ const Header = () => {
       </nav>
       {/* Sliding Menu on one side of the screen */}      
       <ul id='mobile__hamburger--menu' className={slidingMenu} >
-        <li className='mobile__hamburger-link'> <p style={{fontSize:'18px'}}> Home</p> </li>
-        <li className='mobile__hamburger-link'> <p style={{fontSize:'18px'}}> About Us</p> </li>
-        <li className='mobile__hamburger-link'> <p style={{fontSize:'18px'}}> Features</p> </li>
-        <li className='mobile__hamburger-link'> <p style={{fontSize:'18px'}}> Solution</p> </li>
+        <li className='mobile__hamburger-link'> <a href="404" style={{fontSize:'18px'}}> Home</a> </li>
+        <li className='mobile__hamburger-link'> <a href="404" style={{fontSize:'18px'}}> About Us</a> </li>
+        <li className='mobile__hamburger-link'> <a href="404" style={{fontSize:'18px'}}> Features</a> </li>
+        <li className='mobile__hamburger-link'> <a href="404" style={{fontSize:'18px'}}> Solution</a> </li>
       </ul>  
     </>    
   )

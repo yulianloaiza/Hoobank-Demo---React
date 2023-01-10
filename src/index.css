@@ -1,5 +1,5 @@
 /* Import font and set global css variables */
-@import url('https://fonts.googleapis.com/css?family=Poppins:wght:@300;400;500;600;700&family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
 
 :root{
   --font-base: 'Poppins', serif;
@@ -7,7 +7,7 @@
   --color-grey: #FFFFFFB2;
   --color-white: #FFFFFF;
   --color-lightBlue: #00D9F599;
-  --color-darkBlueBg: #131421;
+  --color-darkBlueBg: #131421;    
 }
 /* temporary */
 body{
@@ -28,10 +28,10 @@ p{
   font-weight: 400;
 }
 
-.title{
-  font-family: var(--font-base);
+.title{ 
+  font-weight: 600;
   font-size: 48px;
-  font-weight: 600; 
+  color: var(--color-white);
 }
 
 .gradientText{
@@ -44,11 +44,21 @@ p{
 }
 
 .section{
-  margin: 2rem 2rem;
+  margin: 5rem 2rem;
 }
 
-.action_button{
-  /* pending gradient */
+.action_button{  
+  width: 170px;
+  height: 64px;
+  margin-top: 3rem;
+  background: linear-gradient(176deg, #def9fa, #33bbcf);
+  border-radius: 10px;
+  font-family: var(--font-base);
+  color: var(--color-darkBlueBg);  
+  font-size: 18px;
+  font-weight: 500px;
+  cursor: pointer;
+
 }
 
 body {

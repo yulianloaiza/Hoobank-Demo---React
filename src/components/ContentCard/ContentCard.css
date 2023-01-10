@@ -1,0 +1,39 @@
+.contentCard--divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 10px;  
+  padding: 1rem;
+}
+
+.contentCard--divider:hover {
+  /* background: linear-gradient(176deg, #898888b2 0.5%, #393838b2, #14101d);   */
+  background: linear-gradient(176deg, #898888b2 0.5%, #393838b2 20%, #14101d);  
+  border-radius: 10px;
+}
+
+.contentCard--img {
+  width: 32px;
+  height: 32px;
+}
+
+.contentCard__img--bg {
+  background: rgba(9, 151, 124, 0.1);
+  margin-right: 1rem;  
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.contentCard::before {
+  float: left;
+  width: auto;
+  padding-bottom: 100%;
+}
+
+.contentCard--title {
+  font-weight: 600px;
+  font-size: 18px;
+  color: var(--color-white);
+  margin-top: 0rem;
+}

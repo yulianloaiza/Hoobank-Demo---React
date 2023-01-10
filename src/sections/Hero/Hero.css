@@ -1,4 +1,4 @@
-.section {
+#firstSection {
   margin-top: 9rem;
 }
 
@@ -47,6 +47,7 @@ p {
   margin-top: 2rem;
   margin-bottom: 11rem;
   font-size: 72px;
+  font-weight: 600;
   color: var(--color-white);
   text-align: center;
 }
@@ -54,6 +55,7 @@ p {
 .hero__title--lbGradient {
   margin-top: 0px;
   font-size: 72px;
+  font-weight: 600;
   background: linear-gradient(45deg, #33bbcf -40%, #def9fa 80%);
 }
 

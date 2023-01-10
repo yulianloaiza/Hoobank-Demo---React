@@ -5,7 +5,7 @@
 .inlinePromo--container {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(173deg, #272727 0%, #11101d 100%);
   border-radius: 10px;
   justify-content: center;
 }

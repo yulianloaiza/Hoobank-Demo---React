@@ -2,8 +2,6 @@ import React from "react";
 import { arrowUp, robot, discount } from "../../assets";
 import "./Hero.css";
 
-
-
 const Hero = () => {
   return (
     <div className="section">

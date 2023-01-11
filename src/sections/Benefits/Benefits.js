@@ -5,7 +5,7 @@ import "./Benefits.css";
 
 const Benefits = () => {
   return (
-    <div className="section">
+    <div className="section benefits--divider">
       <div className="benefits--text">
         <p className="title"> You do the business, we'll handle the money. </p>
         <p className="subtitle">

@@ -3,13 +3,13 @@
   flex-direction: row;
   align-items: center;
   margin: 1rem;
-  border-radius: 10px;  
+  border-radius: 10px;
   padding: 1rem;
+  border: 0.3rem outset rgba(51, 187, 207, 0.5);
 }
 
 .contentCard--divider:hover {
-  /* background: linear-gradient(176deg, #898888b2 0.5%, #393838b2, #14101d);   */
-  background: linear-gradient(176deg, #898888b2 0.5%, #393838b2 20%, #14101d);  
+  background: linear-gradient(176deg, #4d4c4cb2 0.5%, #393838b2 20%, #14101d);
   border-radius: 10px;
 }
 
@@ -20,7 +20,7 @@
 
 .contentCard__img--bg {
   background: rgba(9, 151, 124, 0.1);
-  margin-right: 1rem;  
+  margin-right: 1rem;
   padding: 16px;
   border-radius: 50%;
 }
@@ -36,4 +36,10 @@
   font-size: 18px;
   color: var(--color-white);
   margin-top: 0rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .contentCard--divider {
+    border: none;
+  }
 }

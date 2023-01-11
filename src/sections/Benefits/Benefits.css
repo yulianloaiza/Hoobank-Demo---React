@@ -1,15 +1,49 @@
+.benefits--content {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .benefits--text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .title {
   text-align: center;
+  width: 80%;
 }
 
 .subtitle {
   margin-top: 2rem;
   text-align: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+  .title {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .subtitle {
+    width: 100%;
+    text-align: left;
+  }
+
+  .benefits--divider {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .benefits--text {
+    flex: 1;
+    align-items: start;
+  }
+
+  .benefits--content {
+    flex: 1;
+  }
 }

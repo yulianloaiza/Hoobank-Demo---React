@@ -121,7 +121,8 @@ p {
 }
 
 .hero--img {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   max-width: 600px;
 }
 
@@ -187,6 +188,10 @@ p {
   .hero--socialProof {
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .hero--img {
+    width: 100%;
   }
 }
 

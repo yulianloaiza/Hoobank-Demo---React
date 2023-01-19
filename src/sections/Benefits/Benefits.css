@@ -10,11 +10,6 @@
   margin-bottom: 4rem;
 }
 
-.title {
-  text-align: center;
-  width: 80%;
-}
-
 .subtitle {
   margin-top: 2rem;
   text-align: center;
@@ -22,12 +17,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .title {
-    width: 100%;
-    margin-top: 1rem;
-    text-align: left;
-  }
-
   .subtitle {
     width: 100%;
     text-align: left;

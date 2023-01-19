@@ -1,0 +1,84 @@
+.usage--content {
+  display: flex;
+  justify-content: center;
+}
+
+.usage--img {
+  width: 80%;
+  max-width: 450px;
+}
+
+.usage--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.usage--platforms {
+  margin-top: 3rem;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Apple's image is 14 pixels lower in resolution. So we have to scale manually */
+.usage__platforms--appleImg {
+  width: 150px;
+  /* background: red; */
+}
+
+.usage__platforms--googleImg {
+  width: 164px;
+  /* background: green; */
+}
+
+@media screen and (min-width: 768px) {
+  .usage__platforms--appleImg {
+    width: 175px;
+  }
+
+  .usage__platforms--googleImg {
+    width: 189px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .usage--img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .subtitle {
+    width: 100%;
+    text-align: left;
+  }
+
+  .usage--divider {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .usage--text {
+    flex: 1;
+    align-items: start;
+  }
+
+  .usage--content {
+    flex: 1;
+  }
+
+  .usage--platforms {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .usage__platforms--appleImg {
+    width: 150px;
+    margin-right: 20%;
+  }
+
+  .usage__platforms--googleImg {
+    width: 164px;
+  }
+}

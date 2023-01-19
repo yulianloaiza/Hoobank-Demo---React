@@ -164,6 +164,10 @@ p {
   .hero--InlineCTA {
     --lbCircleDiameter: 140px;
   }
+
+  .hero--img {
+    max-width: 500px;
+  }
 }
 
 @media screen and (min-width: 1024px) {

@@ -1,0 +1,70 @@
+.proofBanner--list {
+  display: grid;
+  grid-template-columns: 250px;
+  justify-content: center;
+}
+
+.proofBanner--img {
+  width: 225px;
+  margin-bottom: 3rem;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  .proofBanner--list {
+    /* Flexible units, similar to percentages with css */
+    grid-template-columns: 50fr 50fr;
+    justify-items: center;
+  }
+
+  .coinbase {
+    position: relative;
+    top: 4px;
+  }
+
+  .binance {
+    position: relative;
+    top: 1px;
+    width: 324px;
+  }
+
+  .dropbox {
+    width: 311px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .proofBanner--list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .airbnb {
+    width: 18%;
+    max-width: 250px;
+  }
+
+  .coinbase {
+    position: relative;
+    width: 19%;
+    max-width: 250px;
+    top: -3px;
+  }
+
+  .binance {
+    position: relative;
+    width: 25%;
+    max-width: 324px;
+    top: 1px;
+  }
+
+  .dropbox {
+    position: relative;
+    width: 21%;
+    max-width: 311px;
+    top: 2px;
+  }
+}

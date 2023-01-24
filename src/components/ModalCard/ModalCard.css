@@ -1,0 +1,9 @@
+.modal--card {
+  background: linear-gradient(
+    176deg,
+    #4d4c4cb2 0.5%,
+    #393838b2 20%,
+    #39383856 100%
+  );
+  border-radius: 10px;
+}

@@ -11,8 +11,10 @@ const Testimonials = () => {
           Here's what people are saying about us
         </p>
         <p className="testimonials--intro">
-          We're proud that customers and companies from all over the world trust
-          our services.
+          We're proud that customers and companies from all around the world
+          trust our services. With over seven years of experience, our
+          award-winning banks have guaranteed safety, simplicity, and
+          transparency.
         </p>
       </div>
 

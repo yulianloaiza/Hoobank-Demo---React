@@ -1,0 +1,62 @@
+.cta--modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 3rem auto 4rem auto;
+}
+
+.modal--title {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.modal--text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal--p {
+  font-size: 18px;
+  text-align: center;
+  margin: 0rem 1rem;
+}
+
+.modal--button {
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .cta--modal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .modal--p {
+    text-align: left;
+    margin: 0rem;
+  }
+
+  .modal--title {
+    text-align: left;
+    margin: 0rem 0rem 2rem 0rem;
+  }
+
+  .modal--text {
+    padding: 4rem 1rem 4rem 4rem;
+  }
+  .modal--content {
+    padding: 4rem 4rem 4rem 1rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal--text {
+    padding: 4rem 5rem 4rem 5rem;
+  }
+  .modal--content {
+    padding: 4rem 5rem 4rem 5rem;
+  }
+}

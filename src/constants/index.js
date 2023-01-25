@@ -1,4 +1,15 @@
-import { star, shield, send, people01, people02, people03 } from "../assets";
+import {
+  star,
+  shield,
+  send,
+  people01,
+  people02,
+  people03,
+  instagram,
+  facebook,
+  twitter,
+  linkedin,
+} from "../assets";
 
 export const features = [
   {
@@ -49,4 +60,11 @@ export const testimonials = [
     title: "Top Executive",
     picture: people03,
   },
+];
+
+export const socials = [
+  { name: "Instagram", source: instagram },
+  { name: "Facebook", source: facebook },
+  { name: "Twitter", source: twitter },
+  { name: "LinkedIn", source: linkedin },
 ];

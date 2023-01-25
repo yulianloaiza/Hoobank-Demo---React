@@ -23,15 +23,17 @@
   justify-content: space-evenly;
 }
 
+.usage--platforms img:hover {
+  cursor: pointer;
+}
+
 /* Apple's image is 14 pixels lower in resolution. So we have to scale manually */
 .usage__platforms--appleImg {
-  width: 150px;
-  /* background: red; */
+  width: 150px;  
 }
 
 .usage__platforms--googleImg {
-  width: 164px;
-  /* background: green; */
+  width: 164px;  
 }
 
 @media screen and (min-width: 768px) {

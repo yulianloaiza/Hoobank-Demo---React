@@ -5,9 +5,6 @@ import Usage from "./sections/Usage/Usage";
 import Footer from "./components/Footer/Footer";
 import Testimonials from "./sections/Testimonials/Testimonials";
 import CTAModal from "./sections/CTAModal/CTAModal";
-import "./App.css";
-
-// Mobile first approach with css.
 
 function App() {
   return (

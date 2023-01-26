@@ -5,8 +5,8 @@ import "./Benefits.css";
 
 const Benefits = () => {
   return (
-    <div className="section benefits--divider">
-      <div className="benefits--text">
+    <div className="section flex--lg">
+      <div className="responsive--text">
         <p className="title"> You do the business, we'll handle the money. </p>
         <p className="subtitle">
           With the right credit card, you can improve your financial life by

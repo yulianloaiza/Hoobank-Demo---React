@@ -3,12 +3,12 @@ import "./Usage.css";
 
 const Usage = () => {
   return (
-    <div className="section usage--divider">
+    <div className="section flex--lg">
       <div className="usage--content">
         <img src={bill} className="usage--img" alt="Billing example"></img>
       </div>
 
-      <div className="usage--text">
+      <div className="responsive--text">
         <p className="title"> Easily control your billing & invoicing. </p>
         <p className="subtitle">
           Sending invoices or checking your expenses has never been easier. Our

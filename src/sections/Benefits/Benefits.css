@@ -3,13 +3,6 @@
   margin: 0 auto;
 }
 
-.benefits--text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 4rem;
-}
-
 .subtitle {
   margin-top: 2rem;
   text-align: center;
@@ -20,16 +13,6 @@
   .subtitle {
     width: 100%;
     text-align: left;
-  }
-
-  .benefits--divider {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .benefits--text {
-    flex: 1;
-    align-items: start;
   }
 
   .benefits--content {

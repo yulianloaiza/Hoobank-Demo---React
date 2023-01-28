@@ -12,6 +12,11 @@
 .app__header-logo {
   margin: 1rem 0rem 1rem 2rem;
 }
+
+.app__header-logo:hover {
+  cursor: pointer;
+}
+
 .app__header-logo img {
   width: 12rem;
 }
@@ -31,11 +36,11 @@
 
 a {
   font-size: 16px;
-  margin-bottom: 0;  
+  margin-bottom: 0;
 }
 
 .app__header-navlinks li a {
-  transition: font-size 0.1s ease-out;  
+  transition: font-size 0.1s ease-out;
 }
 
 .app__header-navlinks li a:hover {

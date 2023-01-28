@@ -31,7 +31,9 @@ const Header = () => {
     <>
       <nav className='app__header'>
         <div className='app__header-logo'>
-          <img src={logo} alt= 'HooBank Logo'/>
+          <a href="/"> 
+            <img src={logo} alt= 'HooBank Logo'/>
+          </a>          
         </div>
         {/* Links are just for reference. They don't point anywhere yet. */}        
         <ul className='app__header-navlinks'>

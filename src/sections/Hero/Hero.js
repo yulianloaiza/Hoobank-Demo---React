@@ -11,7 +11,7 @@ const Hero = () => {
           <InlinePromo/>
           <div className="hero--InlineCTA">
             <p className="hero--title">The Next 
-              <span> <p className="hero__title--lbGradient gradientText">Generation</p> </span>
+              <span className="hero__title--lbGradient gradientText"> Generation </span>
             Payment Method.</p>            
             
             <div className="hero--borderColor">

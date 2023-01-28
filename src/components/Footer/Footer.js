@@ -44,7 +44,7 @@ const Footer = () => {
             <div className="footer--socials">
                 {socials.map((item)=>(
                     // Would use a Link and a source field in the json object from constants to enable clickable images
-                    <img src={item.source} alt ={item.name}/>
+                    <img src={item.source} alt ={item.name} key={item.name}/>                    
                 ))}
             </div>
             

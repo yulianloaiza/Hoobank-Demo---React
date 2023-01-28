@@ -1,7 +1,7 @@
 # Hoobank SPA
 
 Basic SPA with React and CSS using a mobile-first approach. 
-The website is fully responsive and has basic state management and refs, especially for responsiveness purposes.   
+The website is fully responsive, from 375px onwards and has basic state management and refs, especially for responsiveness purposes.   
 <br/>
 The site is meant as a demo landing page, so the links are just dummies. If it wasn't a demo page, the links would be implemented with React Router. At the moment they are just hrefs. 
 

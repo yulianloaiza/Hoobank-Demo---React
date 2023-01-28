@@ -1,30 +1,5 @@
 #firstSection {
-  margin-top: 9rem;
-}
-
-.inlinePromo--container {
-  display: flex;
-  flex-direction: row;
-  background: linear-gradient(173deg, #272727 0%, #11101d 100%);
-  border-radius: 10px;
-  justify-content: center;
-}
-
-.inlinePromo--p {
-  display: flex;
-  text-transform: uppercase;
-  font-size: 18px;
-  margin-top: 12px;
-}
-
-.discount {
-  position: relative;
-  top: -0.125rem;
-  margin-right: 0.5rem;
-}
-
-.inlinePromo--highlight {
-  color: var(--color-white);
+  margin-top: 8rem;
 }
 
 .hero--leftHero {
@@ -46,7 +21,7 @@ p {
 .hero--title {
   margin-top: 2rem;
   margin-bottom: 11rem;
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 600;
   color: var(--color-white);
   text-align: center;
@@ -54,7 +29,7 @@ p {
 
 .hero__title--lbGradient {
   margin-top: 0px;
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 600;
   background: linear-gradient(45deg, #33bbcf -40%, #def9fa 80%);
 }
@@ -133,7 +108,7 @@ p {
 }
 
 .hero--proofHighlight {
-  font-size: 40px;
+  font-size: 30px;
   color: var(--color-white);
   text-transform: uppercase;
 }
@@ -143,7 +118,24 @@ p {
   background: linear-gradient(45deg, #33bbcf -40%, #def9fa 80%);
   text-transform: uppercase;
   position: relative;
-  top: -0.5rem;
+  top: -0.2rem;
+}
+
+@media screen and (min-width: 555px) {
+  #firstSection {
+    margin-top: 9rem;
+  }
+
+  .hero--title,
+  .hero__title--lbGradient {
+    font-size: 72px;
+  }
+  .hero--proofHighlight {
+    font-size: 40px;
+  }
+  .hero--prooflbGradient {
+    top: -0.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {

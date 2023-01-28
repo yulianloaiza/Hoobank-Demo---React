@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
   margin: 3rem auto 4rem auto;
 }
 
@@ -25,6 +24,12 @@
 
 .modal--button {
   margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 555px) {
+  .cta--modal {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 1024px) {

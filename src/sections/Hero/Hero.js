@@ -1,4 +1,5 @@
-import { arrowUp, robot, discount } from "../../assets";
+import { arrowUp, robot,  } from "../../assets";
+import InlinePromo from "../../components/InlinePromo/InlinePromo";
 import "./Hero.css";
 
 const Hero = () => {
@@ -7,20 +8,7 @@ const Hero = () => {
       <div className="hero--Divider">
         <div className="hero--leftHero">
           {/* 3 columns */}
-          <div className="inlinePromo--container">
-            <p className="inlinePromo--p">
-              {" "}
-              <span className="discount">
-                {" "}
-                <img
-                  src={discount}            
-                  alt="Discount symbol"
-                ></img>
-              </span>
-              <span className="inlinePromo--highlight">20%&nbsp;</span> Discount for&nbsp;
-              <span className="inlinePromo--highlight">1 month&nbsp;</span>account
-            </p>
-          </div>
+          <InlinePromo/>
           <div className="hero--InlineCTA">
             <p className="hero--title">The Next 
               <span> <p className="hero__title--lbGradient gradientText">Generation</p> </span>
